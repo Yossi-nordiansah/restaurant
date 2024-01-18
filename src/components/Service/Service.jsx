@@ -1,22 +1,24 @@
 import React from 'react';
-import img2 from "../../assets/rendang.png"
+import rendang from "../../assets/rendang.png";
+import sate from "../../assets/sate padang.png";
+import gulai from "../../assets/gulai-padang.png";
 
 const ServicesData = [
     {
         id: 1,
-        img: img2,
+        img: rendang,
         name: 'Rendang',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, similique?'
     },
     {
         id: 2,
-        img: img2,
+        img: sate,
         name: 'Sate Padang',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, similique?'
     },
     {
         id: 3,
-        img: img2,
+        img: gulai,
         name: 'Gulai Ayam',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, similique?'
     },
