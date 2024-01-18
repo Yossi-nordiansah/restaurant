@@ -35,12 +35,16 @@ const Hero = () => {
         <div style={bgImage} className='min-h-[550px] sm:min-h-[600px] bg-gray-100 dark:bg-gray-950 dark:text-white duration-200 flex justify-center items-center'>
             <div className='container pb-8 sm:pb-0'>
                 <div className='grid grid-cols-1 sm:grid-cols-2'>
-                    <div className='flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1'>
+                    <div 
+                    data-aos="zoom-out"
+                    data-aos-duration="400"
+                    data-aos-once="false"
+                    className='flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1'>
                         <h1 className='text-5xl sm:text-6xl lg:text-7xl font-bold'>Selamat Datang di Dapur Minang</h1>
                         <p className='text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit laborum neque similique dicta quo ducimus explicabo vero eaque quidem praesentium?</p>
                         <div>
                             <button className='bg-gradient-to-r from-primary to-secondary text-white px-4 py-4 rounded-full hover:scale-105 duration-200'>
-                                Order Now
+                                Pesan Sekarang
                             </button>
                         </div>
                     </div>

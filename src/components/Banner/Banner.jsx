@@ -61,7 +61,7 @@ const Banner = () => {
                 </div>
                 <div>
                   <button className="bg-gradient-to-r from-primary to-secondary text-white py-2 px-4 rounded-full shadow-xl hover:shadow-md">
-                    Order Now
+                    Pesan Sekarang
                   </button>
                 </div>
               </div>

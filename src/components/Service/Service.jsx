@@ -42,7 +42,10 @@ const Service = () => {
                         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center' >
                             {
                                 ServicesData.map(({ id, img, name, description }) => {
-                                    return <div key={id} className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-primary dark:hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[300px]'>
+                                    return <div
+                                    data-aos="fade-up"
+                                    data-aos-duration="300"
+                                    key={id} className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-primary dark:hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[300px]'>
                                         <div className='h-[130px]'>
                                             <img src={img} alt="" className='max-w-[200px] block mx-auto transform -translate-y-14
                   group-hover:scale-105 group-hover:rotate-6 duration-300' />
