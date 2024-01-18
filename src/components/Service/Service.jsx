@@ -43,7 +43,7 @@ const Service = () => {
                             {
                                 ServicesData.map(({ id, img, name, description }) => {
                                     return <div
-                                    data-aos="fade-up"
+                                    data-aos="flip-up"
                                     data-aos-duration="300"
                                     key={id} className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-primary dark:hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[300px]'>
                                         <div className='h-[130px]'>

@@ -23,7 +23,7 @@ const testimonialData = [
 ];
 
 const Testimonial = () => {
-  var settings = {
+  const settings = {
     dots: true,
     arrows: false,
     infinite: true,
@@ -38,7 +38,7 @@ const Testimonial = () => {
   };
   return (
     <>
-      <div data-aos="fade-up" data-aos-duration="300" className="py-10">
+      <div data-aos="zoom-out" data-aos-duration="300" className="py-10">
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <h1 className="text-3xl font-bold">Testimoni Customer kita</h1>
