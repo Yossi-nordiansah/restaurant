@@ -38,7 +38,7 @@ const Testimonial = () => {
   };
   return (
     <>
-      <div data-aos="zoom-out" data-aos-duration="300" className="py-10">
+      <div data-aos="zoom-in" data-aos-duration="300" className="py-10">
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <h1 className="text-3xl font-bold">Testimoni Customer kita</h1>
@@ -58,7 +58,7 @@ const Testimonial = () => {
                   <div className="my-6">
                     <div
                       key={data.id}
-                      className="flex flex-col justify-center items-center gap-4 text-center   shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
+                      className="flex flex-col justify-center items-center gap-4 text-center shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
                     >
                       <img
                         className="rounded-full block mx-auto"
